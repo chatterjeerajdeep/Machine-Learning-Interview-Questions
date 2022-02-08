@@ -11,18 +11,23 @@ Now suppose the models we build takes into consideration all the 10 features and
 
 Now increasing bias will decrease variance and increasing variance will decrease bias (hence the Tradeoff). Ideal models will have reasonably low bias and reasonably low variance. 
 
-2. What is multi-collinearity
+2. What is multi-collinearity?
+
+When the independent variables in a regression model are correlated, it is called multi-collinearity. It can be of 2 types:
+structural - if we have X as a feature and we include X^2 as a feature too
+data - observational diffiulties, where we fail to identify if 2 features are correlated
+
 2. Why is Multicollinearity a problem?
 Multi-collinearity may not affect the accuracy of the model as much. But we might lose reliability in determining the effects of individual features in the model - and that becomes a problem when it comes to interpretability. 
 
-How to detect Multicollinearity?
-There are some ways to detect multicollinearity:
-1. Multicollinearity can be detected using VIF (Variable Inflation Factors).  VIF determines the strength of the correlation between the independent variables. It is predicted by taking a variable and regressing it against every other variable.
+The coefficient estimates can swing wildly based on which other independent variables are in the model. The coefficients become very sensitive to small changes in the model.
 
-2. Correlation analysis:
-pearson
-kendall
-spearman
+Multicollinearity reduces the precision of the estimated coefficients, which weakens the statistical power of your regression model. You might not be able to trust the p-values to identify independent variables that are statistically significant.
+
+3. How to detect Multicollinearity?
+There are some ways to detect multicollinearity:
+Multicollinearity can be detected using VIF (Variable Inflation Factors).  VIF determines the strength of the correlation between the independent variables. It is predicted by taking a variable and regressing it against every other variable.
+
 
 
 
