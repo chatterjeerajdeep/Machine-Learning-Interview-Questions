@@ -2,7 +2,7 @@
 
 A typical data science project life cycle consists of the following steps:
 
-1. Problem Definition
+<u>1. Problem Definition</u>
 
 #### In this step, we must have clarity on the fllowing aspects:
 * What is the business requirement?
@@ -10,7 +10,7 @@ A typical data science project life cycle consists of the following steps:
 * What is the simplest solution that adds value to the stakeholders - it may be insights based on descriptive statistics, an analysis that establishes a base line or a mockup dashboard.
 * How will value in the project be measured?
 
-2. Data Investigation and Cleaning
+<u>2. Data Investigation and Cleaning</u>
 
 #### This step involves the following processes:
 * Gather the data
@@ -24,7 +24,7 @@ A typical data science project life cycle consists of the following steps:
 * search for outliers
 * impute missing values
 
-3. Minimal Viable Product
+<u>3. Minimal Viable Product</u>
 
 #### While developing a prototype, these are the questions to focus on:
 * Is the model technically performing better than the baseline
@@ -46,8 +46,8 @@ Accordingly, the possible next steps can be:
 * Experiment with different models
 * Deploy and enhance the model
 
-4. Deployment and Enhancement
-5. Data Science Ops
+<u>4. Deployment and Enhancement</u>
+<u>5. Data Science Ops</u>
 
 This step will involve:
 * Monitoring the data - Validating that the real world data coming in is of expected format and of acceptable range
